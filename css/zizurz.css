@@ -121,7 +121,7 @@ nav {
 	margin: auto;
 	width: 1800px;
 	padding: 20px 0px 50px 250px;
-	height: 1000px;
+	height: 370px;
 }
 
 .body_item {		
@@ -134,10 +134,140 @@ nav {
 }
 
 .body_img {
-	border: 6px solid #5FB3BD;
+	border: 5px solid #5FB3BD;
 	border-radius: 3px;
+	transition: .2s;
+	box-shadow: 0px 11px 16px 0px rgba(0, 0, 0, 1);
+
 }
 
 .body_img:hover {
-	filter: grayscale(10%);
+	filter: grayscale(80%);
+}
+
+.featured_co {
+	display: block;
+	border: 5px solid #5FB3BD;
+	border-radius: 4px;
+	height: 520px;
+	padding: 5px 15px 15px;
+	position: absolute;
+	width: 560px;
+}
+
+h2 {
+	text-align: center;	
+	background: url(../images/header_logo.jpg) repeat-x;
+	color: #fff;	
+	font-size: 20px;
+	font-weight: normal;
+	height: 47px;
+	letter-spacing: 0.1em;
+	left: 15px;
+	line-height: 47px;
+	margin: 0;
+	padding: 0 25px;
+	position: absolute;
+	text-transform: capitalize;
+	top: -14px;
+}
+
+h3 {
+	font-family: 'Mukta', sans-serif;
+	color: #354057;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 50px 0;
+	padding: 10px 0 0;
+	text-transform: none;
+}
+
+.featured_img {
+	display: block;
+	float: left;
+	margin: 50px 30px 25px 0;
+	padding: 0;
+}
+
+p {
+	font-family: 'Mukta', sans-serif;	
+	clear: both;
+	color: #464646;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 0 0 24px;
+	padding: 0;
+}
+
+.featured {
+	float: left;	
+	padding: 0;
+}
+
+.selection {	
+	width: 560px;
+	background: #519194;
+	border: 5px solid #5fb3bd;
+	border-radius: 4px;
+	float: none;
+	padding: 0 15px;
+	position: absolute;
+	margin-left: 640px;
+}
+
+.article {
+	display: inline-block;
+	height: 183px;
+	margin-bottom: 15px;
+	padding: 55px 15px 20px;
+	text-align: left;
+	
+}
+
+.newsletter {
+	background: #519194;
+	border: 5px solid #5fb3bd;
+	border-radius: 4px;
+	width: 560px;
+	height: 228px;
+	padding: 30px 15px 19px 214px;
+	position: absolute;
+	margin: 250px 0 0 640px;
+
+}
+
+.newsletter_img {
+	display: block;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: -13px;
+	z-index: 5;
+}
+
+.newsletter_p {
+	color: #f5f5f5;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 0.03em;
+	line-height: 30px;	
+}
+
+span {
+	display: block;
+}
+ 
+.footer {	
+	display: inline-block;
+	height: 150px;
+	width: 100%;
+	margin-top: 600px;
+	background: #519194;
+	text-align: center; 
+
+}
+
+.footer_cop {
+	margin-top: 60px;
 }
